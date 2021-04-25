@@ -25,6 +25,15 @@ class LoginActivity : AppCompatActivity() {
         setLoginRegister()
     }
 
+    override fun onStart() {
+        super.onStart()
+        val usuarioActivo = auth.currentUser
+        if (usuarioActivo != null){
+            startActivity(Intent(this,MainActivity::class.java))
+            finish()
+        }
+
+    }
 
 
     private fun setLoginRegister(){
@@ -66,6 +75,7 @@ class LoginActivity : AppCompatActivity() {
                             Toast.LENGTH_LONG).show()
                         val intento = Intent(this, MainActivity::class.java)
                         startActivity(intento)
+                        finish()
                     }else{
                         Toast.makeText(this,"Error en los datos!",
                             Toast.LENGTH_LONG).show()

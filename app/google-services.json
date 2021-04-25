@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "361621270778",
+    "firebase_url": "https://pokedex-11389-default-rtdb.firebaseio.com",
+    "project_id": "pokedex-11389",
+    "storage_bucket": "pokedex-11389.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361621270778:android:1bd297a6194f460a3b1943",
+        "android_client_info": {
+          "package_name": "edu.itesm.pokedex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361621270778-cej213d9h3lb5vg0rtdsjcert3bpf42v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN8kUL7zO3_kmuObPAKDGfbMEsqJhTciY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361621270778-cej213d9h3lb5vg0rtdsjcert3bpf42v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
